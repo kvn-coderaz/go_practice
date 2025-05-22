@@ -1,15 +1,15 @@
 package main
 
-import(
+import (
+	"github.com/gorilla/mux"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/kvn-coderaz/go_practice/pkg/routes"
 	"log"
 	"net/http"
-	"github.com/gorilla/mux"
-	"github.com/kvn-coderaz/go_practice/pkg/routes"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
-func main(){
-	r:= mux.NewRouter()
+func main() {
+	r := mux.NewRouter()
 	routes.RegisterBookstoreRoutes(r)
 	http.Handle("/", r)
 	log.Println("Listening to port 8080")
