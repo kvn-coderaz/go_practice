@@ -5,8 +5,8 @@ import(
 	"net/http"
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/kvn-razcode/go_practice/pkg/models"
-	"github.com/kvn-razcode/go_practice/pkg/utils"
+	"github.com/kvn-coderaz/go_practice/pkg/models"
+	"github.com/kvn-coderaz/go_practice/pkg/utils"
 	"strconv" 
 
 )
