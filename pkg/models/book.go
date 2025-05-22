@@ -9,9 +9,9 @@ var db *gorm.DB
 // Book struct (Model)
 type Book struct {
 		gorm.Model
-		name string `gorm:""json:"name"`
-		author string `json:"author"`
-		publication string `json:"publication"`
+		Name string `gorm:"" json:"name"`
+		Author string `json:"author"`
+		Publication string `json:"publication"`
 }
 
 // Initialize the database connection
