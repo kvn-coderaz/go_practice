@@ -4,7 +4,7 @@ import(
 	"log"
 	"net/http"
 	"github.com/gorilla/mux"
-	"github.com/kvn-razcode/go_practice/pkg/routes"
+	"github.com/kvn-coderaz/go_practice/pkg/routes"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
