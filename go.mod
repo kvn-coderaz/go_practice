@@ -1,4 +1,4 @@
-module github.com/kvn_razcode/go_practice
+module github.com/kvn-coderaz/go_practice
 
 go 1.24.1
 
